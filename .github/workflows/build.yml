@@ -49,6 +49,7 @@ jobs:
       - name: Can I deploy?
         run: GIT_BRANCH=${GIT_REF:11} make can_i_deploy
 
+  # test
   # Only deploy from master
   deploy:
     runs-on: ubuntu-latest
